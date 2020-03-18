@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "hideify",
+  "version": "1.0",
+
+  "description": "hides all images in all webpages matching *.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": ["hideify.css"]
+    }
+  ]
+
+}
